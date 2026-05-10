@@ -1,0 +1,58 @@
+/* General page styling */
+body {
+    font-family: Arial, sans-serif;
+    background-color: white;
+    margin: 30px;
+    padding: 10px;
+    color: black;
+}
+/* Main container */
+.form-container {
+    width: 80%;
+    margin: 30px auto;
+    background: beige;
+    padding: 25px;
+    border-radius: 20px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.15);
+}
+/* Main heading */
+.heading-title {
+    text-align: center;
+    color: darkgreen;
+     font-size: xx-large;
+        font-weight: bold;
+    margin-bottom: 20px;
+}
+/* Section question */
+.section-question{
+    color: black;
+    font-weight: bold;
+     font-size: medium;
+    padding-bottom: 5px;
+    margin-top: 25px;
+}
+/*Input box styling */
+input {
+  width: 20%;
+  padding: 10px;
+  margin-top: 20px;
+  border-radius: 5px;
+  border: 2px solid black;
+}
+/* Button Styling */
+.button-styling {
+    background-color: darkgreen;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: medium;
+    font-weight: bold;
+    cursor: pointer;
+    border-radius: 10px;
+    padding: auto;
+    transition-duration: 0s;
+
+}
+.button-styling:hover {
+    background-color: red;
+}
